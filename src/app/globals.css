@@ -2,25 +2,118 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+
+  /* Brand navy — header, hero, dark sections */
+  --color-navy-950: #0a1330;
+  --color-navy-900: #0f1a3d;
+  --color-navy-800: #142352;
+  --color-navy-700: #1b2f6b;
+  --color-navy-600: #223b84;
+  --color-navy-500: #2c4a9e;
+
+  /* Brand amber — primary CTA accent */
+  --color-amber-600: #d97e06;
+  --color-amber-500: #f59e0b;
+  --color-amber-400: #fbbf24;
+  --color-amber-300: #fcd34d;
+
+  /* Royal blue — brighter accent from the legacy site's CTA banner; not used by default, available for one-off highlights */
+  --color-royal-700: #1e3fc4;
+  --color-royal-600: #2b4fdb;
+  --color-royal-500: #3b5cf0;
+  --color-royal-400: #5a76f5;
+
+  /* Supporting neutrals */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-400: #94a3b8;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-900: #0f172a;
+
+  /* Status */
+  --color-success-500: #16a34a;
+
+  /* Warm paper — light section backgrounds & the intake-ticket card */
+  --color-paper: #fbfaf7;
+  --color-paper-dim: #f4f2ec;
+
+  /* Hairline on dark navy surfaces (ticket dividers, form field rules) */
+  --color-line-onDark: rgba(251, 250, 247, 0.14);
+  --color-line-onDark-strong: rgba(251, 250, 247, 0.28);
+
+  /* Semantic aliases used throughout the site */
+  --color-brand: var(--color-navy-800);
+  --color-brand-dark: var(--color-navy-950);
+  --color-accent: var(--color-amber-500);
+  --color-accent-hover: var(--color-amber-400);
+  --color-ink: var(--color-navy-950);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+
+  --color-navy-950: var(--color-navy-950);
+  --color-navy-900: var(--color-navy-900);
+  --color-navy-800: var(--color-navy-800);
+  --color-navy-700: var(--color-navy-700);
+  --color-navy-600: var(--color-navy-600);
+  --color-navy-500: var(--color-navy-500);
+
+  --color-amber-600: var(--color-amber-600);
+  --color-amber-500: var(--color-amber-500);
+  --color-amber-400: var(--color-amber-400);
+  --color-amber-300: var(--color-amber-300);
+
+  --color-royal-700: var(--color-royal-700);
+  --color-royal-600: var(--color-royal-600);
+  --color-royal-500: var(--color-royal-500);
+  --color-royal-400: var(--color-royal-400);
+
+  --color-slate-50: var(--color-slate-50);
+  --color-slate-100: var(--color-slate-100);
+  --color-slate-200: var(--color-slate-200);
+  --color-slate-400: var(--color-slate-400);
+  --color-slate-600: var(--color-slate-600);
+  --color-slate-700: var(--color-slate-700);
+  --color-slate-900: var(--color-slate-900);
+
+  --color-success-500: var(--color-success-500);
+
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-line-onDark: var(--color-line-onDark);
+  --color-line-onDark-strong: var(--color-line-onDark-strong);
+
+  --color-brand: var(--color-brand);
+  --color-brand-dark: var(--color-brand-dark);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-ink: var(--color-ink);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
