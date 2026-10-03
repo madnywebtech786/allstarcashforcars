@@ -16,9 +16,9 @@ export function VehicleCatalog() {
             Nine Categories, One Fair Offer
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            At AllStar Cash For Cars, we purchase all types of vehicles
-            regardless of make, model, year, or condition &mdash; running or
-            not, damaged, old, or totaled &mdash; with towing included on
+            At Junk4Car Calgary, we purchase all types of vehicles
+            regardless of make, model, year, or condition, running or
+            not, damaged, old, or totaled, with towing included on
             every accepted sale.
           </p>
         </Reveal>

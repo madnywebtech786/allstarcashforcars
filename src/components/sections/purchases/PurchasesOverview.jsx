@@ -22,7 +22,7 @@ export function PurchasesOverview() {
                 policy: make, model, year, and condition don&rsquo;t
                 disqualify a vehicle here. A compact sedan gets the same
                 consideration as a full-size work truck, a luxury SUV, or a
-                commercial van &mdash; we&rsquo;ve priced and picked up
+                commercial van, since we&rsquo;ve priced and picked up
                 thousands of vehicles across Calgary, and the process
                 doesn&rsquo;t change based on what&rsquo;s parked in your
                 driveway.
@@ -32,7 +32,7 @@ export function PurchasesOverview() {
             <Reveal variant="up" delay={0.1}>
               <p>
                 Badge doesn&rsquo;t matter either. Reliable Japanese
-                imports&mdash;Toyota, Honda, Nissan, Mazda&mdash;get the
+                imports, including Toyota, Honda, Nissan, and Mazda, get the
                 same fair offer as American mainstays like Ford, Chevrolet,
                 GMC, Dodge, and Jeep, or European makes such as BMW,
                 Mercedes-Benz, Volkswagen, and Audi. Whatever&rsquo;s on the
@@ -55,9 +55,9 @@ export function PurchasesOverview() {
             <Reveal variant="up" delay={0.2}>
               <p>
                 Once an offer is accepted, the rest is handled for you. A
-                tow operator comes to wherever the vehicle actually sits
-                &mdash; home, work, or anywhere else in Calgary and the
-                surrounding area &mdash; completes the paperwork on-site,
+                tow operator comes to wherever the vehicle actually sits,
+                whether home, work, or anywhere else in Calgary and the
+                surrounding area, completes the paperwork on-site,
                 and pays cash before leaving. Most pickups run under an
                 hour, start to finish.
               </p>

@@ -42,8 +42,8 @@ const CONTACT_DETAILS = [
   {
     icon: Mail,
     label: "Email us your details",
-    value: "hello@allstarcashforcars.ca",
-    href: "mailto:hello@allstarcashforcars.ca",
+    value: "hello@junk4carcalgary.ca",
+    href: "mailto:hello@junk4carcalgary.ca",
   },
   {
     icon: MapPin,
@@ -82,8 +82,8 @@ export function Footer() {
                 <Car className="size-5" strokeWidth={2} />
               </span>
               <p className="font-display text-lg font-semibold tracking-tight text-paper">
-                ALLSTAR
-                <span className="ml-1.5 text-accent">CASH FOR CARS</span>
+                JUNK4CAR
+                <span className="ml-1.5 text-accent">CALGARY</span>
               </p>
             </div>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
@@ -186,8 +186,8 @@ export function Footer() {
       <div className="border-t border-line-onDark">
         <Container className="flex flex-col items-center justify-between gap-4 py-6 sm:flex-row">
           <p className="text-center text-xs leading-relaxed text-slate-500 sm:text-left">
-            &copy; 2026 AllStar Cash For Cars. All rights reserved. |
-            allstarcashforcars.ca | Developed by Webomedia Technology
+            &copy; 2026 Junk4Car Calgary. All rights reserved. |
+            junk4carcalgary.ca
           </p>
 
           <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5">

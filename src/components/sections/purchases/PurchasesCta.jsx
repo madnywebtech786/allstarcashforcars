@@ -30,7 +30,7 @@ export function PurchasesCta() {
             sale.
           </h2>
           <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-slate-300">
-            Whatever you&rsquo;re driving &mdash; or not driving &mdash;
+            Whatever you&rsquo;re driving, or not driving,
             dispatch will price it and confirm pickup across Calgary.
           </p>
         </Reveal>

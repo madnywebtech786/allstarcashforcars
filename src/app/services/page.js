@@ -6,22 +6,32 @@ import { ServicesCta } from "@/components/sections/services/ServicesCta";
 import { ClosingCta } from "@/components/sections/ClosingCta";
 import { SERVICES, SERVICES_FAQ } from "@/lib/services";
 
-const SITE_URL = "https://allstarcashforcars.ca";
+const SITE_URL = "https://junk4carcalgary.ca";
+
+const PAGE_TITLE = "Junk Car Buying & Towing Services";
+const FULL_TITLE = "Junk Car Buying & Towing Services | Junk4Car Calgary";
+const DESCRIPTION =
+  "Cash offers from $300 to $10,000 for junk cars in any condition. Towing included, same-day pickup when available, serving Calgary and Alberta.";
 
 export const metadata = {
-  title: "Junk Car Buying & Towing Services | AllStar Cash For Cars",
-  description:
-    "Cash offers from $300–$10,000 for junk cars in any condition. Towing included with an accepted sale, same-day pickup when available, serving Calgary and Alberta.",
+  title: PAGE_TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}/services`,
   },
   openGraph: {
-    title: "Junk Car Buying & Towing Services | AllStar Cash For Cars",
-    description:
-      "Professional junk car removal with instant cash payment in Calgary, Alberta. Towing included with an accepted sale.",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
     url: `${SITE_URL}/services`,
-    siteName: "AllStar Cash For Cars",
+    siteName: "Junk4Car Calgary",
     type: "website",
+    images: ["/opengraph-image"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
+    images: ["/twitter-image"],
   },
 };
 
@@ -40,7 +50,7 @@ const servicesJsonLd = {
   serviceType: "Junk car buying and towing",
   provider: {
     "@type": "AutomotiveBusiness",
-    name: "AllStar Cash For Cars",
+    name: "Junk4Car Calgary",
     url: SITE_URL,
     telephone: "+1-403-402-0423",
   },

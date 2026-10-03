@@ -37,7 +37,7 @@ export function ServiceDetail({ service, index, total }) {
 
             <div className="group relative aspect-4/3 overflow-hidden rounded-[28px] border border-navy-950/8 sm:aspect-16/11">
               <Image
-                src="/images/junk-cars.png"
+                src={service.image}
                 alt={service.title}
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"

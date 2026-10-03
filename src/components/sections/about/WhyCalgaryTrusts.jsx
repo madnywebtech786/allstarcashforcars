@@ -11,7 +11,7 @@ const SERVICE_PILLARS = [
   {
     icon: Banknote,
     title: "Cash for Junk Cars Calgary",
-    copy: "Get top value with our cash for junk cars Calgary service designed for fast payments and easy pickup. No paperwork stress, no waiting — just quick quotes, towing included with an accepted sale, and instant cash for your junk car.",
+    copy: "Get top value with our cash for junk cars Calgary service designed for fast payments and easy pickup. No paperwork stress, no waiting, just quick quotes, towing included with an accepted sale, and instant cash for your junk car.",
   },
   {
     icon: Recycle,
@@ -26,10 +26,10 @@ export function WhyCalgaryTrusts() {
       <Container>
         <Reveal variant="up" className="max-w-2xl">
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-navy-500">
-            Why Calgary Trusts AllStar Cash For Cars
+            Why Calgary Trusts Junk4Car Calgary
           </p>
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            AllStar Cash For Cars is built around a simple philosophy: treat
+            Junk4Car Calgary is built around a simple philosophy: treat
             every customer with respect, offer fair prices, and deliver on
             our promises. This approach supports clear, straightforward
             vehicle sales throughout Calgary and Alberta.
@@ -71,7 +71,7 @@ export function WhyCalgaryTrusts() {
               paperwork, provide towing included with an accepted sale
               from any location, and pay cash on the spot. There&rsquo;s no
               waiting for cheques to clear or dealing with complicated
-              payment processes &mdash; when our tow truck arrives,
+              payment processes, since when our tow truck arrives,
               you&rsquo;ll receive your cash immediately.
             </p>
           </Reveal>

@@ -13,8 +13,8 @@ const CONTACT_DETAILS = [
   {
     icon: Mail,
     label: "Email us your details",
-    value: "hello@allstarcashforcars.ca",
-    href: "mailto:hello@allstarcashforcars.ca",
+    value: "hello@junk4carcalgary.ca",
+    href: "mailto:hello@junk4carcalgary.ca",
   },
   {
     icon: Clock,

@@ -2,7 +2,7 @@ const ENTRIES = [
   {
     code: "01",
     title: "Offers priced by people who know vehicles",
-    copy: "Our team prices offers against current scrap and salvage values, not a script. A late-model car with a blown transmission, an aging daily driver that's no longer worth repairing, and a vehicle that hasn't run in years are three different offers — because they're three different vehicles. Condition changes the number, never whether we'll buy.",
+    copy: "Our team prices offers against current scrap and salvage values, not a script. A late-model car with a blown transmission, an aging daily driver that's no longer worth repairing, and a vehicle that hasn't run in years are three different offers, because they're three different vehicles. Condition changes the number, never whether we'll buy.",
   },
   {
     code: "02",
@@ -12,7 +12,7 @@ const ENTRIES = [
   {
     code: "03",
     title: "Towing included, cash paid on the spot",
-    copy: "Once an offer is accepted, towing from your driveway, lot, or roadside is included at no added cost. There's no waiting on a cheque to clear afterward — you're paid in cash the moment the vehicle is confirmed and loaded.",
+    copy: "Once an offer is accepted, towing from your driveway, lot, or roadside is included at no added cost. There's no waiting on a cheque to clear afterward, since you're paid in cash the moment the vehicle is confirmed and loaded.",
   },
   {
     code: "04",

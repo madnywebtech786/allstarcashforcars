@@ -30,7 +30,7 @@ export function ServicesCta() {
             Whichever service you need, one call covers it.
           </h2>
           <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-slate-600">
-            Cash offer, towing, or same-day pickup &mdash; dispatch
+            Cash offer, towing, or same-day pickup: dispatch
             confirms everything in one conversation before anything is
             scheduled.
           </p>

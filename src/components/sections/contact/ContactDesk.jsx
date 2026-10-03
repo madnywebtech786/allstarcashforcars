@@ -19,8 +19,8 @@ const CONTACT_CHANNELS = [
     icon: Mail,
     label: "Email Us",
     tag: "24/7 email support",
-    value: "hello@allstarcashforcars.ca",
-    href: "mailto:hello@allstarcashforcars.ca",
+    value: "hello@junk4carcalgary.ca",
+    href: "mailto:hello@junk4carcalgary.ca",
     note: "Response within 2 hours",
   },
   {
@@ -77,7 +77,7 @@ export function ContactDesk() {
               <div className="overflow-hidden rounded-2xl border border-navy-950/8">
                 <iframe
                   src={MAP_EMBED_SRC}
-                  title="AllStar Cash For Cars — 41 Sage Bluff Close NW, Calgary, AB"
+                  title="Junk4Car Calgary - 41 Sage Bluff Close NW, Calgary, AB"
                   width="100%"
                   height="220"
                   style={{ border: 0, display: "block" }}

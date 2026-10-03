@@ -4,22 +4,32 @@ import { PurchasesOverview } from "@/components/sections/purchases/PurchasesOver
 import { PurchasesCta } from "@/components/sections/purchases/PurchasesCta";
 import { VEHICLE_CATEGORIES } from "@/lib/purchases";
 
-const SITE_URL = "https://allstarcashforcars.ca";
+const SITE_URL = "https://junk4carcalgary.ca";
+
+const PAGE_TITLE = "Vehicles We Purchase";
+const FULL_TITLE = "Vehicles We Purchase | Junk4Car Calgary";
+const DESCRIPTION =
+  "We buy junk cars, trucks, vans, and SUVs in any condition. Cash offers from $300 to $10,000, towing included with an accepted sale.";
 
 export const metadata = {
-  title: "Vehicles We Purchase | AllStar Cash For Cars",
-  description:
-    "We buy all types of junk cars, trucks, vans, and SUVs in any condition. Cash offers from $300–$10,000 across nine vehicle categories, towing included with an accepted sale.",
+  title: PAGE_TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}/purchases`,
   },
   openGraph: {
-    title: "Vehicles We Purchase | AllStar Cash For Cars",
-    description:
-      "All makes, models, and conditions accepted — sedans, trucks, SUVs, vans, damaged, non-running, vintage, luxury, and commercial vehicles.",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
     url: `${SITE_URL}/purchases`,
-    siteName: "AllStar Cash For Cars",
+    siteName: "Junk4Car Calgary",
     type: "website",
+    images: ["/opengraph-image"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
+    images: ["/twitter-image"],
   },
 };
 
@@ -35,7 +45,7 @@ const breadcrumbJsonLd = {
 const catalogJsonLd = {
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
-  name: "Vehicles AllStar Cash For Cars Purchases",
+  name: "Vehicles Junk4Car Calgary Purchases",
   itemListElement: VEHICLE_CATEGORIES.map((category) => ({
     "@type": "Offer",
     name: category.title,

@@ -29,7 +29,7 @@ export function NotSureCta() {
             Use the quote form with your exact city, or call the business.
           </h2>
           <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-slate-600">
-            A city listing does not guarantee an immediate time slot &mdash;
+            A city listing does not guarantee an immediate time slot, since
             dispatch confirms the pickup window.
           </p>
         </Reveal>

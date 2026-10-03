@@ -21,7 +21,7 @@ export function ContactMap() {
           <div className="overflow-hidden rounded-[28px] border border-navy-950/8">
             <iframe
               src={MAP_EMBED_SRC}
-              title="AllStar Cash For Cars — 41 Sage Bluff Close NW, Calgary, AB"
+              title="Junk4Car Calgary - 41 Sage Bluff Close NW, Calgary, AB"
               width="100%"
               height="450"
               style={{ border: 0, display: "block" }}

@@ -6,7 +6,7 @@ const PRINCIPLES = [
   {
     code: "Vision",
     title: "A dependable name in Calgary junk car buying",
-    copy: "We want AllStar to be the call people already know to make when a vehicle stops being worth keeping — backed by instant cash payment, consistent offers, and towing included with every accepted sale.",
+    copy: "We want Junk4Car Calgary to be the call people already know to make when a vehicle stops being worth keeping, backed by instant cash payment, consistent offers, and towing included with every accepted sale.",
   },
   {
     code: "Values",

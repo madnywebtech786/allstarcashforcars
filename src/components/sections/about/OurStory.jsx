@@ -26,7 +26,7 @@ export function OurStory() {
                 Case File
               </p>
               <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400 lg:mt-1.5">
-                &mdash; Our Story
+                Our Story
               </p>
             </div>
             <div className="mt-6 hidden h-32 w-px bg-linear-to-b from-navy-950/15 to-transparent lg:block" />
@@ -61,8 +61,8 @@ export function OurStory() {
               <Reveal variant="up" delay={0.16}>
                 <p className="text-[17px] leading-relaxed text-slate-600">
                   Most of what comes through dispatch has already stopped
-                  being useful to its owner &mdash; seized, written off, or
-                  simply not worth repairing anymore. AllStar Cash For Cars
+                  being useful to its owner: seized, written off, or
+                  simply not worth repairing anymore. Junk4Car Calgary
                   buys and tows it anyway: cars, trucks, vans, and SUVs
                   across Calgary and the surrounding Alberta communities.
                 </p>
@@ -71,7 +71,7 @@ export function OurStory() {
               <Reveal variant="up" delay={0.22}>
                 <p className="text-[17px] leading-relaxed text-slate-600">
                   Every offer is priced against the vehicle you actually
-                  have &mdash; year, make, model, and condition &mdash; not
+                  have, meaning year, make, model, and condition, not
                   a flat rate quoted before we&rsquo;ve seen it. Towing is
                   included once a sale is accepted, and payment is made in
                   cash at pickup, not a cheque mailed out later.

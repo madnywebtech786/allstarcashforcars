@@ -18,10 +18,10 @@ export function ContactOverview() {
           <div className="space-y-8 text-[17px] leading-relaxed text-slate-300">
             <Reveal variant="up" delay={0.05}>
               <p>
-                Reaching AllStar Cash For Cars is the first step toward
+                Reaching Junk4Car Calgary is the first step toward
                 turning an unwanted vehicle into cash. Our team answers
                 questions, gives accurate quotes, and finds a pickup time
-                that actually fits your schedule &mdash; with clear
+                that actually fits your schedule, with clear
                 communication the whole way through, not a runaround.
               </p>
             </Reveal>
@@ -32,7 +32,7 @@ export function ContactOverview() {
                 menu of automated prompts. We&rsquo;ll ask about your
                 vehicle&rsquo;s make, model, year, mileage, and condition,
                 then work from those details to give you the most accurate
-                offer we can &mdash; typically somewhere between $300 and
+                offer we can, typically somewhere between $300 and
                 $10,000.
               </p>
             </Reveal>
@@ -42,7 +42,7 @@ export function ContactOverview() {
                 Prefer not to call? The form above reaches the same
                 dispatch desk, and we aim to respond within two hours
                 during business hours. Email works too, at
-                hello@allstarcashforcars.ca, for quotes or general
+                hello@junk4carcalgary.ca, for quotes or general
                 questions. If you&rsquo;re unsure about paperwork, timing,
                 or how payment works, that&rsquo;s exactly what we&rsquo;re
                 here to walk you through.
@@ -52,7 +52,7 @@ export function ContactOverview() {
             <Reveal variant="up" delay={0.2}>
               <p>
                 Our office is at 41 Sage Bluff Close NW, Calgary, Alberta
-                T3R 0X6 &mdash; call ahead before visiting so the team can
+                T3R 0X6, so call ahead before visiting so the team can
                 confirm someone&rsquo;s available. However you reach us,
                 phone, email, or the form, expect the same thing: clear
                 answers and an offer priced to your actual vehicle.

@@ -3,18 +3,20 @@ export const SERVICES = [
     id: "cash-for-junk-cars",
     code: "CSH",
     title: "Cash Offers $300–$10K",
+    image: "/images/junk-cars.webp",
     summary:
       "A vehicle-specific offer for junk cars in any condition, quoted over the phone within minutes.",
     points: [
       "Cash payment on the spot",
       "All makes and models accepted",
-      "Running or not — we buy all",
+      "Running or not, we buy all",
     ],
   },
   {
     id: "towing-included",
     code: "TOW",
     title: "Towing Included With an Accepted Sale",
+    image: "/images/towing.webp",
     summary:
       "Professional towing operators with proper equipment, dispatched anywhere in Calgary once a sale is accepted.",
     points: [
@@ -27,8 +29,9 @@ export const SERVICES = [
     id: "all-cars-accepted",
     code: "ALL",
     title: "All Junk Cars Accepted",
+    image: "/images/all-junk-cars-accepted.webp",
     summary:
-      "Cars, trucks, vans, and SUVs in any condition. Damaged, totaled, old, or non-running — we take them all.",
+      "Cars, trucks, vans, and SUVs in any condition. Damaged, totaled, old, or non-running, we take them all.",
     points: [
       "Cars, trucks, vans, SUVs",
       "Running or not running",
@@ -39,6 +42,7 @@ export const SERVICES = [
     id: "same-day-pickup",
     code: "24H",
     title: "Same-Day Pickup When Available",
+    image: "/images/Same-Day-Pickup.webp",
     summary:
       "Call today and we can pick up your junk car the same day, with instant cash payment on the spot.",
     points: [
@@ -51,8 +55,9 @@ export const SERVICES = [
     id: "instant-cash-payment",
     code: "SPT",
     title: "Cash On Spot",
+    image: "/images/Cash-On-Spot.webp",
     summary:
-      "Instant cash the moment we pick up your vehicle — no waiting on cheques or bank transfers.",
+      "Instant cash the moment we pick up your vehicle, no waiting on cheques or bank transfers.",
     points: [
       "Immediate cash payment",
       "No hidden deductions",
@@ -63,6 +68,7 @@ export const SERVICES = [
     id: "calgary-local-experts",
     code: "YYC",
     title: "Calgary Local Experts",
+    image: "/images/Calgary-Local-Experts.webp",
     summary:
       "Proudly serving Calgary and surrounding Alberta areas with professional junk car removal services.",
     points: [

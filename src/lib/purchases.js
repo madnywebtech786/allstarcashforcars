@@ -17,7 +17,7 @@ export const VEHICLE_CATEGORIES = [
     title: "Sedans & Cars",
     tagline: "All makes & models",
     summary:
-      "From a daily driver that still runs fine to a sedan with a list of mechanical problems, condition doesn't rule a car out here — it just shapes the number we offer.",
+      "From a daily driver that still runs fine to a sedan with a list of mechanical problems, condition doesn't rule a car out here, it just shapes the number we offer.",
     makes: ["Honda Civic, Accord, Camry", "Toyota Corolla, Camry", "Ford Focus, Fusion, Taurus", "Chevrolet Malibu, Cruze", "Nissan Altima, Sentra", "Hyundai, Mazda, Kia & more"],
     priceMin: 300,
     priceMax: 10000,

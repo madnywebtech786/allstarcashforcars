@@ -45,7 +45,7 @@ export function AboutHero() {
 
           <Reveal variant="up" delay={0.2} duration={0.8}>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
-              AllStar Cash For Cars buys and tows junk, damaged, and
+              Junk4Car Calgary buys and tows junk, damaged, and
               non-running vehicles across Calgary and Alberta. Here&rsquo;s
               how we price offers, run pickups, and keep the process honest
               from first call to final payout.

@@ -5,22 +5,32 @@ import { HowWeWork } from "@/components/sections/about/HowWeWork";
 import { WhyCalgaryTrusts } from "@/components/sections/about/WhyCalgaryTrusts";
 import { ClosingCta } from "@/components/sections/ClosingCta";
 
-const SITE_URL = "https://allstarcashforcars.ca";
+const SITE_URL = "https://junk4carcalgary.ca";
+
+const PAGE_TITLE = "About Us";
+const FULL_TITLE = "About Us | Junk4Car Calgary";
+const DESCRIPTION =
+  "Junk4Car Calgary buys junk, damaged, and non-running vehicles across Alberta. Cash offers from $300 to $10,000, towing included with an accepted sale.";
 
 export const metadata = {
-  title: "About Us | AllStar Cash For Cars – Calgary Junk Car Buyers",
-  description:
-    "AllStar Cash For Cars buys junk, damaged, and non-running vehicles across Calgary and Alberta. Vehicle-specific cash offers from $300–$10,000, towing included with an accepted sale.",
+  title: PAGE_TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}/about-us`,
   },
   openGraph: {
-    title: "About Us | AllStar Cash For Cars",
-    description:
-      "The team behind Calgary's junk car pickups: how we price offers, run towing, and pay cash on the spot.",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
     url: `${SITE_URL}/about-us`,
-    siteName: "AllStar Cash For Cars",
+    siteName: "Junk4Car Calgary",
     type: "website",
+    images: ["/opengraph-image"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
+    images: ["/twitter-image"],
   },
 };
 
@@ -46,16 +56,16 @@ const breadcrumbJsonLd = {
 const aboutPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  name: "About AllStar Cash For Cars",
+  name: "About Junk4Car Calgary",
   url: `${SITE_URL}/about-us`,
   description:
-    "AllStar Cash For Cars buys junk, damaged, and non-running vehicles across Calgary and Alberta with vehicle-specific cash offers and towing included with an accepted sale.",
+    "Junk4Car Calgary buys junk, damaged, and non-running vehicles across Calgary and Alberta with vehicle-specific cash offers and towing included with an accepted sale.",
   mainEntity: {
     "@type": "AutomotiveBusiness",
-    name: "AllStar Cash For Cars",
+    name: "Junk4Car Calgary",
     url: SITE_URL,
     telephone: "+1-403-402-0423",
-    email: "hello@allstarcashforcars.ca",
+    email: "hello@junk4carcalgary.ca",
     areaServed: {
       "@type": "State",
       name: "Alberta",

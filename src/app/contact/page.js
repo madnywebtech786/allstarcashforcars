@@ -4,22 +4,32 @@ import { WhyContactUs } from "@/components/sections/contact/WhyContactUs";
 import { ContactServiceIndex } from "@/components/sections/contact/ContactServiceIndex";
 import { ContactOverview } from "@/components/sections/contact/ContactOverview";
 
-const SITE_URL = "https://allstarcashforcars.ca";
+const SITE_URL = "https://junk4carcalgary.ca";
+
+const PAGE_TITLE = "Contact Us";
+const FULL_TITLE = "Contact Us | Junk4Car Calgary";
+const DESCRIPTION =
+  "Call (403) 402-0423 for an instant cash offer on your junk car in Calgary. Towing included with an accepted sale.";
 
 export const metadata = {
-  title: "Contact Us | AllStar Cash For Cars",
-  description:
-    "Call (403) 402-0423 for an instant cash offer on your junk car in Calgary. Towing included with an accepted sale, response within 2 hours by email.",
+  title: PAGE_TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}/contact`,
   },
   openGraph: {
-    title: "Contact Us | AllStar Cash For Cars",
-    description:
-      "Speak with a real person about your cash offer — phone, email, or the quote form, all confirmed by the same dispatch desk.",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
     url: `${SITE_URL}/contact`,
-    siteName: "AllStar Cash For Cars",
+    siteName: "Junk4Car Calgary",
     type: "website",
+    images: ["/opengraph-image"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: FULL_TITLE,
+    description: DESCRIPTION,
+    images: ["/twitter-image"],
   },
 };
 
@@ -35,10 +45,10 @@ const breadcrumbJsonLd = {
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "AutomotiveBusiness",
-  name: "AllStar Cash For Cars",
+  name: "Junk4Car Calgary",
   url: SITE_URL,
   telephone: "+1-403-402-0423",
-  email: "hello@allstarcashforcars.ca",
+  email: "hello@junk4carcalgary.ca",
   address: {
     "@type": "PostalAddress",
     streetAddress: "41 Sage Bluff Close NW",

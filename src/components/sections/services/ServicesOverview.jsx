@@ -18,11 +18,11 @@ export function ServicesOverview() {
           <div className="space-y-8 text-[17px] leading-relaxed text-slate-600">
             <Reveal variant="up" delay={0.05}>
               <p>
-                AllStar Cash For Cars offers comprehensive junk car buying
+                Junk4Car Calgary offers comprehensive junk car buying
                 and removal throughout Calgary and the surrounding Alberta
                 communities. Our full-service approach means you don&rsquo;t
-                have to worry about any part of selling an unwanted vehicle
-                &mdash; we handle everything from the initial quote to final
+                have to worry about any part of selling an unwanted vehicle,
+                since we handle everything from the initial quote to final
                 pickup and payment.
               </p>
             </Reveal>
@@ -30,8 +30,8 @@ export function ServicesOverview() {
             <Reveal variant="up" delay={0.1}>
               <p>
                 We accept vehicles in absolutely any condition. Running or
-                not running, damaged or totaled, old or relatively new
-                &mdash; we buy them all, including cars, trucks, SUVs, vans,
+                not running, damaged or totaled, old or relatively new,
+                we buy them all, including cars, trucks, SUVs, vans,
                 and commercial vehicles. There&rsquo;s no vehicle too old,
                 too damaged, or too far gone for us to make an offer. Many
                 customers are surprised to learn their &ldquo;worthless&rdquo;

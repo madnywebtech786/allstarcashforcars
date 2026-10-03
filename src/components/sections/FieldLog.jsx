@@ -95,7 +95,7 @@ function ShowcasePanel({ item }) {
     <div className="group overflow-hidden rounded-[22px] border border-line-onDark bg-navy-900">
       <div className="relative aspect-4/3 sm:aspect-16/11">
         <Image
-          src="/images/junk-cars.png"
+          src="/images/junk-cars.webp"
           alt={item.caption}
           fill
           sizes="(min-width: 640px) 50vw, 100vw"

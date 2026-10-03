@@ -54,8 +54,8 @@ export function Navbar() {
                 <Car className="size-5" strokeWidth={2} />
               </span>
               <span className="hidden font-display text-[15px] font-semibold tracking-tight text-paper sm:inline">
-                ALLSTAR
-                <span className="ml-1.5 text-accent">CASH FOR CARS</span>
+                JUNK4CAR
+                <span className="ml-1.5 text-accent">CALGARY</span>
               </span>
             </Link>
 
